@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<main>
+    <section class="profile">
+        <div class="profile__side-wrapper">
+            <div class="profile__client-wrapper">
+                <div class="profile__client-image">
+                    <img src="./images/image-jeremy.png" alt="Jeremy Robson">
+                </div>
+                <p class="profile__client-report">Report for</p>
+                <h1 class="profile__client-name">Jeremy Robson</h1>
+            </div>
+            <div class="profile__nav-wrapper">
+                <ul class="profile__nav-list">
+                    <li class="profile__nav-item profile__nav-item--active">
+                        <button type="button">Daily</button>
+                    </li>
+                    <li class="profile__nav-item">
+                        <button type="button">Weekly</button>
+                    </li>
+                    <li class="profile__nav-item">
+                        <button type="button">Monthly</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="profile__cards-wrapper"></div>
+    </section>
+</main>
+</body>
+</html>
